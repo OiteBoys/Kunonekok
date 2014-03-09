@@ -16,6 +16,8 @@ public:
     AsideLayer();
     
     ~AsideLayer();
+
+	bool virtual init();
     
-    
+	CREATE_FUNC(AsideLayer);
 };

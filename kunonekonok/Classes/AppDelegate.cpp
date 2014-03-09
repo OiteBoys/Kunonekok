@@ -53,7 +53,10 @@ void AppDelegate::applicationWillEnterForeground() {
 }
 
 void AppDelegate::setResourceSearchResolution(){
-	std::vector<std::string> paths;
-	paths.push_back("images");
+	std::vector<std::string> paths;
+
+	paths.push_back("images");
+	paths.push_back("maps");
+
 	FileUtils::getInstance()->setSearchPaths(paths);
 }
