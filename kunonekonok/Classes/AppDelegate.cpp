@@ -16,8 +16,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto eglView = EGLView::getInstance();
 
+	this->setResourceSearchResolution();
+
     director->setOpenGLView(eglView);
-	
+
     // turn on display FPS
     director->setDisplayStats(true);
 
@@ -25,7 +27,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    //auto scene = HelloWorld::createScene();
+	auto scene = WelcomeScene::create();
 
     // run
     director->runWithScene(scene);
@@ -47,4 +50,10 @@ void AppDelegate::applicationWillEnterForeground() {
 
     // if you use SimpleAudioEngine, it must resume here
     // SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
+}
+
+void AppDelegate::setResourceSearchResolution(){
+	std::vector<std::string> paths;
+	paths.push_back("images");
+	FileUtils::getInstance()->setSearchPaths(paths);
 }
