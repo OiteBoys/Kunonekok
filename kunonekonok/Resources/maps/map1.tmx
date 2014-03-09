@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="45" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="magicschool-b" tilewidth="16" tileheight="16">
+  <image source="../../../../../Downloads/dlmap/magicschool-b.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="481" name="machi" tilewidth="16" tileheight="16">
+  <image source="../../../../../Downloads/kunonekonok/Data.wolf~/MapChip/machi.png" width="128" height="3840"/>
+ </tileset>
+ <layer name="grass" width="18" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6BOQv2brY0dkNBLqqqq+ugA+I449Q==
+  </data>
+ </layer>
+ <layer name="lush_grass" width="18" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJACAQA8DsP5QuIs5iL75g7QXShSvTk/StM3XaYV/15gwOh/ON4zc4HA6Hw+G8OgvA+51E
+  </data>
+ </layer>
+ <layer name="flower" width="18" height="45">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj64B8zZfKjgDgwEsORFD+PxPAZBYMDDPa0N9jdhw6GknuHklvJAcPdf8QCSsJhJIfhYPD7QLphMPifUgAAj+UPEA==
+  </data>
+ </layer>
+ <layer name="tree" width="18" height="45">
+  <data encoding="base64" compression="zlib">
+   eJy9VsEOwjAI9TA9bZ6cJ/XW//9FSwLJkwClNPElxKWjPHgI2b5dLke3e7dHt5NtZ6N3V7YTzp7wjHfp/NXt3e3D5/ju4GftY90lNOaW88a/4t/YCNZdAebq+W/Mddt+7yIwV4THJcDYFneWy4rt5SqwuLw6RtBcGFvXOIL2l9hWjRE8/9kaPf9Mrzx/r8Ysqpp4vZjVxOOd7TvyrvQdedEfY2ZrFF70x5ijvkczrXOI+h7NtJVDtbdN6ZTpbSbnTG89eLs/s0OjnK3eWrl7Oo3ie7EzsxDt0GyO2djVPU/AWjDHmR1P0LW04L8XwaqlUp+l9+yOF4jemW+HDCq6WP+5ii6zM+ehMnMW/vXdMgvUpKKPADWpzjsBNVmZd9RkRR8C6r0yD4Ivw9Ufuw==
+  </data>
+ </layer>
+</map>
