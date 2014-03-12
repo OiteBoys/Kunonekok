@@ -8,6 +8,7 @@
 
 #pragma once
 #include "cocos2d.h"
+#include "AsideLayer.h"
 
 using namespace cocos2d;
 
@@ -22,5 +23,5 @@ public:
     CREATE_FUNC(PreviousScene);
     
 private:
-    
+    AsideLayer *asideLayer;
 };

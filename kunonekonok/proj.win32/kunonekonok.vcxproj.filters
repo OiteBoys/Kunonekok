@@ -62,4 +62,9 @@
       <Filter>resource</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\text\previous.xml">
+      <Filter>resource</Filter>
+    </Xml>
+  </ItemGroup>
 </Project>

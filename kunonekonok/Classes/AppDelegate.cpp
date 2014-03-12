@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#include "PreviousScene.h"
 
 USING_NS_CC;
 
@@ -16,9 +17,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto eglView = EGLView::getInstance();
 
-	this->setResourceSearchResolution();
-
     director->setOpenGLView(eglView);
+	eglView->setDesignResolutionSize(480,800, ResolutionPolicy::SHOW_ALL);
+	this->setResourceSearchResolution();
 
     // turn on display FPS
     director->setDisplayStats(true);
@@ -28,7 +29,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // create a scene. it's an autorelease object
     //auto scene = HelloWorld::createScene();
-	auto scene = WelcomeScene::create();
+	auto scene = PreviousScene::create();
 
     // run
     director->runWithScene(scene);
@@ -57,6 +58,8 @@ void AppDelegate::setResourceSearchResolution(){
 
 	paths.push_back("images");
 	paths.push_back("maps");
+	paths.push_back("text");
+	paths.push_back("fonts");
 
 	FileUtils::getInstance()->setSearchPaths(paths);
 }
