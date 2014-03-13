@@ -62,6 +62,28 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		5174F97118D149200003CC17 /* AsideLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96918D149200003CC17 /* AsideLayer.cpp */; };
+		5174F97218D149200003CC17 /* PreviousScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96B18D149200003CC17 /* PreviousScene.cpp */; };
+		5174F97318D149200003CC17 /* WelcomeLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96D18D149200003CC17 /* WelcomeLayer.cpp */; };
+		5174F97418D149200003CC17 /* WelcomeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96F18D149200003CC17 /* WelcomeScene.cpp */; };
+		5174F97D18D149370003CC17 /* chinese_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F97B18D149370003CC17 /* chinese_0.png */; };
+		5174F97E18D149370003CC17 /* chinese.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 5174F97C18D149370003CC17 /* chinese.fnt */; };
+		5174F98E18D149430003CC17 /* imgbb49db23839f4e9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F97F18D149430003CC17 /* imgbb49db23839f4e9.png */; };
+		5174F98F18D149430003CC17 /* K.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98018D149430003CC17 /* K.jpg */; };
+		5174F99018D149430003CC17 /* ki.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98118D149430003CC17 /* ki.png */; };
+		5174F99118D149430003CC17 /* magic_girl_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98218D149430003CC17 /* magic_girl_smile.png */; };
+		5174F99218D149430003CC17 /* magic_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98318D149430003CC17 /* magic_girl.png */; };
+		5174F99318D149430003CC17 /* midori.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98418D149430003CC17 /* midori.png */; };
+		5174F99418D149430003CC17 /* neko_embarrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98518D149430003CC17 /* neko_embarrass.png */; };
+		5174F99518D149430003CC17 /* neko_embarrass2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98618D149430003CC17 /* neko_embarrass2.png */; };
+		5174F99618D149430003CC17 /* neko_happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98718D149430003CC17 /* neko_happy.png */; };
+		5174F99718D149430003CC17 /* neko_happy２.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98818D149430003CC17 /* neko_happy２.png */; };
+		5174F99818D149430003CC17 /* neko_odoroki.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98918D149430003CC17 /* neko_odoroki.png */; };
+		5174F99918D149430003CC17 /* neko.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98A18D149430003CC17 /* neko.png */; };
+		5174F99A18D149430003CC17 /* seikai.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98B18D149430003CC17 /* seikai.png */; };
+		5174F99B18D149430003CC17 /* spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98C18D149430003CC17 /* spotlight.png */; };
+		5174F99C18D149430003CC17 /* zu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98D18D149430003CC17 /* zu.png */; };
+		5174F99E18D149570003CC17 /* previous.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5174F99D18D149570003CC17 /* previous.xml */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -288,6 +310,32 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		5174F96918D149200003CC17 /* AsideLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AsideLayer.cpp; path = ../Classes/AsideLayer.cpp; sourceTree = "<group>"; };
+		5174F96A18D149200003CC17 /* AsideLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsideLayer.h; path = ../Classes/AsideLayer.h; sourceTree = "<group>"; };
+		5174F96B18D149200003CC17 /* PreviousScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PreviousScene.cpp; path = ../Classes/PreviousScene.cpp; sourceTree = "<group>"; };
+		5174F96C18D149200003CC17 /* PreviousScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreviousScene.h; path = ../Classes/PreviousScene.h; sourceTree = "<group>"; };
+		5174F96D18D149200003CC17 /* WelcomeLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WelcomeLayer.cpp; path = ../Classes/WelcomeLayer.cpp; sourceTree = "<group>"; };
+		5174F96E18D149200003CC17 /* WelcomeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeLayer.h; path = ../Classes/WelcomeLayer.h; sourceTree = "<group>"; };
+		5174F96F18D149200003CC17 /* WelcomeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WelcomeScene.cpp; path = ../Classes/WelcomeScene.cpp; sourceTree = "<group>"; };
+		5174F97018D149200003CC17 /* WelcomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeScene.h; path = ../Classes/WelcomeScene.h; sourceTree = "<group>"; };
+		5174F97B18D149370003CC17 /* chinese_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chinese_0.png; path = fonts/chinese_0.png; sourceTree = "<group>"; };
+		5174F97C18D149370003CC17 /* chinese.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = chinese.fnt; path = fonts/chinese.fnt; sourceTree = "<group>"; };
+		5174F97F18D149430003CC17 /* imgbb49db23839f4e9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imgbb49db23839f4e9.png; path = images/imgbb49db23839f4e9.png; sourceTree = "<group>"; };
+		5174F98018D149430003CC17 /* K.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = K.jpg; path = images/K.jpg; sourceTree = "<group>"; };
+		5174F98118D149430003CC17 /* ki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ki.png; path = images/ki.png; sourceTree = "<group>"; };
+		5174F98218D149430003CC17 /* magic_girl_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magic_girl_smile.png; path = images/magic_girl_smile.png; sourceTree = "<group>"; };
+		5174F98318D149430003CC17 /* magic_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magic_girl.png; path = images/magic_girl.png; sourceTree = "<group>"; };
+		5174F98418D149430003CC17 /* midori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midori.png; path = images/midori.png; sourceTree = "<group>"; };
+		5174F98518D149430003CC17 /* neko_embarrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neko_embarrass.png; path = images/neko_embarrass.png; sourceTree = "<group>"; };
+		5174F98618D149430003CC17 /* neko_embarrass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neko_embarrass2.png; path = images/neko_embarrass2.png; sourceTree = "<group>"; };
+		5174F98718D149430003CC17 /* neko_happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neko_happy.png; path = images/neko_happy.png; sourceTree = "<group>"; };
+		5174F98818D149430003CC17 /* neko_happy２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "neko_happy２.png"; path = "images/neko_happy２.png"; sourceTree = "<group>"; };
+		5174F98918D149430003CC17 /* neko_odoroki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neko_odoroki.png; path = images/neko_odoroki.png; sourceTree = "<group>"; };
+		5174F98A18D149430003CC17 /* neko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neko.png; path = images/neko.png; sourceTree = "<group>"; };
+		5174F98B18D149430003CC17 /* seikai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seikai.png; path = images/seikai.png; sourceTree = "<group>"; };
+		5174F98C18D149430003CC17 /* spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spotlight.png; path = images/spotlight.png; sourceTree = "<group>"; };
+		5174F98D18D149430003CC17 /* zu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zu.png; path = images/zu.png; sourceTree = "<group>"; };
+		5174F99D18D149570003CC17 /* previous.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = previous.xml; path = text/previous.xml; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -364,6 +412,14 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5174F96918D149200003CC17 /* AsideLayer.cpp */,
+				5174F96A18D149200003CC17 /* AsideLayer.h */,
+				5174F96B18D149200003CC17 /* PreviousScene.cpp */,
+				5174F96C18D149200003CC17 /* PreviousScene.h */,
+				5174F96D18D149200003CC17 /* WelcomeLayer.cpp */,
+				5174F96E18D149200003CC17 /* WelcomeLayer.h */,
+				5174F96F18D149200003CC17 /* WelcomeScene.cpp */,
+				5174F97018D149200003CC17 /* WelcomeScene.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
@@ -487,6 +543,24 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5174F99D18D149570003CC17 /* previous.xml */,
+				5174F97B18D149370003CC17 /* chinese_0.png */,
+				5174F97F18D149430003CC17 /* imgbb49db23839f4e9.png */,
+				5174F98018D149430003CC17 /* K.jpg */,
+				5174F98118D149430003CC17 /* ki.png */,
+				5174F98218D149430003CC17 /* magic_girl_smile.png */,
+				5174F98318D149430003CC17 /* magic_girl.png */,
+				5174F98418D149430003CC17 /* midori.png */,
+				5174F98518D149430003CC17 /* neko_embarrass.png */,
+				5174F98618D149430003CC17 /* neko_embarrass2.png */,
+				5174F98718D149430003CC17 /* neko_happy.png */,
+				5174F98818D149430003CC17 /* neko_happy２.png */,
+				5174F98918D149430003CC17 /* neko_odoroki.png */,
+				5174F98A18D149430003CC17 /* neko.png */,
+				5174F98B18D149430003CC17 /* seikai.png */,
+				5174F98C18D149430003CC17 /* spotlight.png */,
+				5174F98D18D149430003CC17 /* zu.png */,
+				5174F97C18D149370003CC17 /* chinese.fnt */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -687,25 +761,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5174F97E18D149370003CC17 /* chinese.fnt in Resources */,
+				5174F99518D149430003CC17 /* neko_embarrass2.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
+				5174F99818D149430003CC17 /* neko_odoroki.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
+				5174F99B18D149430003CC17 /* spotlight.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
+				5174F99218D149430003CC17 /* magic_girl.png in Resources */,
+				5174F99718D149430003CC17 /* neko_happy２.png in Resources */,
+				5174F99C18D149430003CC17 /* zu.png in Resources */,
+				5174F99E18D149570003CC17 /* previous.xml in Resources */,
+				5174F99918D149430003CC17 /* neko.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				5174F97D18D149370003CC17 /* chinese_0.png in Resources */,
+				5174F98F18D149430003CC17 /* K.jpg in Resources */,
+				5174F98E18D149430003CC17 /* imgbb49db23839f4e9.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
+				5174F99118D149430003CC17 /* magic_girl_smile.png in Resources */,
+				5174F99618D149430003CC17 /* neko_happy.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				5174F99418D149430003CC17 /* neko_embarrass.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
+				5174F99018D149430003CC17 /* ki.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
+				5174F99A18D149430003CC17 /* seikai.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				5174F99318D149430003CC17 /* midori.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,8 +821,12 @@
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				5174F97318D149200003CC17 /* WelcomeLayer.cpp in Sources */,
+				5174F97418D149200003CC17 /* WelcomeScene.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				5174F97218D149200003CC17 /* PreviousScene.cpp in Sources */,
+				5174F97118D149200003CC17 /* AsideLayer.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
