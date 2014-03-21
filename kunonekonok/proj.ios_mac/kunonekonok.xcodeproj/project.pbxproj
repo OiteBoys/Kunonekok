@@ -84,6 +84,8 @@
 		5174F99B18D149430003CC17 /* spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98C18D149430003CC17 /* spotlight.png */; };
 		5174F99C18D149430003CC17 /* zu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98D18D149430003CC17 /* zu.png */; };
 		5174F99E18D149570003CC17 /* previous.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5174F99D18D149570003CC17 /* previous.xml */; };
+		51E39B5018DC38640086C64C /* MotionStreakExampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */; };
+		51E39B5318DC3A420086C64C /* Terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E39B5218DC3A420086C64C /* Terrain.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -336,6 +338,10 @@
 		5174F98C18D149430003CC17 /* spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spotlight.png; path = images/spotlight.png; sourceTree = "<group>"; };
 		5174F98D18D149430003CC17 /* zu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zu.png; path = images/zu.png; sourceTree = "<group>"; };
 		5174F99D18D149570003CC17 /* previous.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = previous.xml; path = text/previous.xml; sourceTree = "<group>"; };
+		51E39B4818DC384C0086C64C /* MotionStreakExampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotionStreakExampleScene.h; path = ../Classes/MotionStreakExampleScene.h; sourceTree = "<group>"; };
+		51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MotionStreakExampleScene.cpp; path = ../Classes/MotionStreakExampleScene.cpp; sourceTree = "<group>"; };
+		51E39B5118DC3A350086C64C /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Terrain.h; path = ../Classes/Terrain.h; sourceTree = "<group>"; };
+		51E39B5218DC3A420086C64C /* Terrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Terrain.cpp; path = ../Classes/Terrain.cpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -424,6 +430,10 @@
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				51E39B4818DC384C0086C64C /* MotionStreakExampleScene.h */,
+				51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */,
+				51E39B5118DC3A350086C64C /* Terrain.h */,
+				51E39B5218DC3A420086C64C /* Terrain.cpp */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -823,7 +833,9 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				5174F97318D149200003CC17 /* WelcomeLayer.cpp in Sources */,
 				5174F97418D149200003CC17 /* WelcomeScene.cpp in Sources */,
+				51E39B5318DC3A420086C64C /* Terrain.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
+				51E39B5018DC38640086C64C /* MotionStreakExampleScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				5174F97218D149200003CC17 /* PreviousScene.cpp in Sources */,
 				5174F97118D149200003CC17 /* AsideLayer.cpp in Sources */,
