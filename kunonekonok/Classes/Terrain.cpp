@@ -69,7 +69,6 @@ Sprite* Terrain::stripedSpriteWithColor(Color4F foregroundColor, Color4F backgro
     
     
     this->setShaderProgram(ShaderCache::getInstance()->getProgram(GLProgram::SHADER_NAME_POSITION_COLOR));
-    CHECK_GL_ERROR_DEBUG();
     CC_NODE_DRAW_SETUP();
     
     // layer strips
@@ -124,6 +123,7 @@ Sprite* Terrain::stripedSpriteWithColor(Color4F foregroundColor, Color4F backgro
     texture->end();
     return Sprite::createWithTexture(texture->getSprite()->getTexture());
 }
+
 
 
 Color4F Terrain::randomBrightColor() {
