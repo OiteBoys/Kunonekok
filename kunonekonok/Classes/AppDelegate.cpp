@@ -1,6 +1,6 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
 #include "PreviousScene.h"
+#include "MotionStreakExampleScene.h"
 
 USING_NS_CC;
 
@@ -18,7 +18,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto eglView = EGLView::getInstance();
 
     director->setOpenGLView(eglView);
-	eglView->setDesignResolutionSize(480,800, ResolutionPolicy::SHOW_ALL);
+	eglView->setDesignResolutionSize(800,480, ResolutionPolicy::SHOW_ALL);
 	this->setResourceSearchResolution();
 
     // turn on display FPS
@@ -29,7 +29,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // create a scene. it's an autorelease object
     //auto scene = HelloWorld::createScene();
-	auto scene = PreviousScene::create();
+	auto scene = MotionStreakExampleScene::create();
 
     // run
     director->runWithScene(scene);

@@ -8,6 +8,8 @@
 
 #pragma once
 #include "cocos2d.h"
+#include "Utils.h"
+#include "Terrain.h"
 using namespace cocos2d;
 
 class MotionStreakExampleLayer;
@@ -30,4 +32,12 @@ public:
     ~MotionStreakExampleLayer();
     bool virtual init();
     CREATE_FUNC(MotionStreakExampleLayer);
+    
+    void onTouchesBegan(const std::vector<Touch*>& touches, Event *event);
+    
+    Sprite* stripedSpriteWithColor(Color4F foregroundColor, Color4F backgroundColor, float width, float height, int stripCount);
+    CC_SYNTHESIZE_RETAIN(Sprite*, background, Background);
+    
+private:
+    Terrain *terrain;
 };
