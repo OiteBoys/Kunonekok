@@ -112,6 +112,23 @@
 		5174F99B18D149430003CC17 /* spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98C18D149430003CC17 /* spotlight.png */; };
 		5174F99C18D149430003CC17 /* zu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98D18D149430003CC17 /* zu.png */; };
 		5174F99E18D149570003CC17 /* previous.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5174F99D18D149570003CC17 /* previous.xml */; };
+		5192BEB718E2C88000BB322D /* map02.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5192BEB618E2C88000BB322D /* map02.tmx */; };
+		5192BEC018E2C93A00BB322D /* MapLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEBF18E2C93A00BB322D /* MapLayer.cpp */; };
+		5192BEC118E2C93A00BB322D /* MapLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEBF18E2C93A00BB322D /* MapLayer.cpp */; };
+		5192BEC418E2CC9A00BB322D /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEC318E2CC9A00BB322D /* GameScene.cpp */; };
+		5192BEC518E2CC9A00BB322D /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEC318E2CC9A00BB322D /* GameScene.cpp */; };
+		5192BEC618E2CF4500BB322D /* map02.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5192BEB618E2C88000BB322D /* map02.tmx */; };
+		5198C4E918E27CFF006D2B69 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4E618E27CFF006D2B69 /* background.png */; };
+		5198C4EA18E27CFF006D2B69 /* boy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4E718E27CFF006D2B69 /* boy.plist */; };
+		5198C4EB18E27CFF006D2B69 /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4E818E27CFF006D2B69 /* boy.png */; };
+		5198C4F418E27ECE006D2B69 /* SampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5198C4F318E27ECE006D2B69 /* SampleScene.cpp */; };
+		5198C4F518E27ECE006D2B69 /* SampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5198C4F318E27ECE006D2B69 /* SampleScene.cpp */; };
+		5198C4F918E285CD006D2B69 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F618E285CC006D2B69 /* background.png */; };
+		5198C4FA18E285CD006D2B69 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F618E285CC006D2B69 /* background.png */; };
+		5198C4FB18E285CD006D2B69 /* run.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F718E285CC006D2B69 /* run.plist */; };
+		5198C4FC18E285CD006D2B69 /* run.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F718E285CC006D2B69 /* run.plist */; };
+		5198C4FD18E285CD006D2B69 /* run.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F818E285CD006D2B69 /* run.png */; };
+		5198C4FE18E285CD006D2B69 /* run.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F818E285CD006D2B69 /* run.png */; };
 		51E39B5018DC38640086C64C /* MotionStreakExampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */; };
 		51E39B5318DC3A420086C64C /* Terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E39B5218DC3A420086C64C /* Terrain.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -367,6 +384,19 @@
 		5174F98C18D149430003CC17 /* spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spotlight.png; path = images/spotlight.png; sourceTree = "<group>"; };
 		5174F98D18D149430003CC17 /* zu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zu.png; path = images/zu.png; sourceTree = "<group>"; };
 		5174F99D18D149570003CC17 /* previous.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = previous.xml; path = text/previous.xml; sourceTree = "<group>"; };
+		5192BEB618E2C88000BB322D /* map02.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map02.tmx; sourceTree = "<group>"; };
+		5192BEBE18E2C8C700BB322D /* MapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapLayer.h; path = ../Classes/MapLayer.h; sourceTree = "<group>"; };
+		5192BEBF18E2C93A00BB322D /* MapLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MapLayer.cpp; path = ../Classes/MapLayer.cpp; sourceTree = "<group>"; };
+		5192BEC218E2CB2C00BB322D /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
+		5192BEC318E2CC9A00BB322D /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
+		5198C4E618E27CFF006D2B69 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../StreetBoy/StreetBoy/Resources/background.png; sourceTree = "<group>"; };
+		5198C4E718E27CFF006D2B69 /* boy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = boy.plist; path = ../../../StreetBoy/StreetBoy/Resources/boy.plist; sourceTree = "<group>"; };
+		5198C4E818E27CFF006D2B69 /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy.png; path = ../../../StreetBoy/StreetBoy/Resources/boy.png; sourceTree = "<group>"; };
+		5198C4F218E27E5D006D2B69 /* SampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleScene.h; path = ../Classes/SampleScene.h; sourceTree = "<group>"; };
+		5198C4F318E27ECE006D2B69 /* SampleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SampleScene.cpp; path = ../Classes/SampleScene.cpp; sourceTree = "<group>"; };
+		5198C4F618E285CC006D2B69 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5198C4F718E285CC006D2B69 /* run.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = run.plist; sourceTree = "<group>"; };
+		5198C4F818E285CD006D2B69 /* run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run.png; sourceTree = "<group>"; };
 		51E39B4818DC384C0086C64C /* MotionStreakExampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotionStreakExampleScene.h; path = ../Classes/MotionStreakExampleScene.h; sourceTree = "<group>"; };
 		51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MotionStreakExampleScene.cpp; path = ../Classes/MotionStreakExampleScene.cpp; sourceTree = "<group>"; };
 		51E39B5118DC3A350086C64C /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Terrain.h; path = ../Classes/Terrain.h; sourceTree = "<group>"; };
@@ -460,9 +490,15 @@
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				51E39B4818DC384C0086C64C /* MotionStreakExampleScene.h */,
 				51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */,
+				5192BEBE18E2C8C700BB322D /* MapLayer.h */,
+				5192BEBF18E2C93A00BB322D /* MapLayer.cpp */,
 				51E39B5118DC3A350086C64C /* Terrain.h */,
 				51E39B5218DC3A420086C64C /* Terrain.cpp */,
 				51E39BC918DD32C30086C64C /* Utils.h */,
+				5198C4F218E27E5D006D2B69 /* SampleScene.h */,
+				5198C4F318E27ECE006D2B69 /* SampleScene.cpp */,
+				5192BEC218E2CB2C00BB322D /* GameScene.h */,
+				5192BEC318E2CC9A00BB322D /* GameScene.cpp */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -582,12 +618,19 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5198C4E618E27CFF006D2B69 /* background.png */,
+				5198C4E718E27CFF006D2B69 /* boy.plist */,
+				5198C4E818E27CFF006D2B69 /* boy.png */,
 				5101761318DD42E600F036F2 /* Noise-hd.png */,
 				5101761418DD42E600F036F2 /* Noise-iphone5hd.png */,
 				5101761518DD42E600F036F2 /* Noise.png */,
 				5174F99D18D149570003CC17 /* previous.xml */,
 				5174F97B18D149370003CC17 /* chinese_0.png */,
 				5174F97F18D149430003CC17 /* imgbb49db23839f4e9.png */,
+				5198C4F618E285CC006D2B69 /* background.png */,
+				5192BEB618E2C88000BB322D /* map02.tmx */,
+				5198C4F718E285CC006D2B69 /* run.plist */,
+				5198C4F818E285CD006D2B69 /* run.png */,
 				5174F98018D149430003CC17 /* K.jpg */,
 				5174F98118D149430003CC17 /* ki.png */,
 				5174F98218D149430003CC17 /* magic_girl_smile.png */,
@@ -803,13 +846,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5198C4EB18E27CFF006D2B69 /* boy.png in Resources */,
 				5174F97E18D149370003CC17 /* chinese.fnt in Resources */,
+				5198C4E918E27CFF006D2B69 /* background.png in Resources */,
 				5101761718DD42E600F036F2 /* Noise-iphone5hd.png in Resources */,
 				5174F99518D149430003CC17 /* neko_embarrass2.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				5198C4FD18E285CD006D2B69 /* run.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
+				5198C4F918E285CD006D2B69 /* background.png in Resources */,
 				5174F99818D149430003CC17 /* neko_odoroki.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5174F99B18D149430003CC17 /* spotlight.png in Resources */,
@@ -819,7 +866,9 @@
 				5174F99718D149430003CC17 /* neko_happy２.png in Resources */,
 				5174F99C18D149430003CC17 /* zu.png in Resources */,
 				5174F99E18D149570003CC17 /* previous.xml in Resources */,
+				5198C4EA18E27CFF006D2B69 /* boy.plist in Resources */,
 				5174F99918D149430003CC17 /* neko.png in Resources */,
+				5198C4FB18E285CD006D2B69 /* run.plist in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
@@ -830,6 +879,7 @@
 				5174F98E18D149430003CC17 /* imgbb49db23839f4e9.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
+				5192BEB718E2C88000BB322D /* map02.tmx in Resources */,
 				5174F99118D149430003CC17 /* magic_girl_smile.png in Resources */,
 				5174F99618D149430003CC17 /* neko_happy.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
@@ -853,6 +903,7 @@
 				5101763318DD50CE00F036F2 /* chinese.fnt in Resources */,
 				5101763218DD50CA00F036F2 /* zu.png in Resources */,
 				5101762518DD50A300F036F2 /* K.jpg in Resources */,
+				5198C4FC18E285CD006D2B69 /* run.plist in Resources */,
 				5101762A18DD50B300F036F2 /* neko_embarrass.png in Resources */,
 				5101762718DD50A900F036F2 /* magic_girl_smile.png in Resources */,
 				5101762418DD509F00F036F2 /* imgbb49db23839f4e9.png in Resources */,
@@ -865,12 +916,15 @@
 				5101762018DD509100F036F2 /* Noise-iphone5hd.png in Resources */,
 				5101762B18DD50B600F036F2 /* neko_embarrass2.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
+				5198C4FA18E285CD006D2B69 /* background.png in Resources */,
 				5087E75417EB910900C73F5D /* CloseSelected.png in Resources */,
 				5101762818DD50AC00F036F2 /* magic_girl.png in Resources */,
+				5198C4FE18E285CD006D2B69 /* run.png in Resources */,
 				5101762318DD509C00F036F2 /* chinese_0.png in Resources */,
 				5101762F18DD50C200F036F2 /* neko.png in Resources */,
 				5101762E18DD50BF00F036F2 /* neko_odoroki.png in Resources */,
 				5101762918DD50AF00F036F2 /* midori.png in Resources */,
+				5192BEC618E2CF4500BB322D /* map02.tmx in Resources */,
 				5101762618DD50A600F036F2 /* ki.png in Resources */,
 				5087E75517EB910900C73F5D /* HelloWorld.png in Resources */,
 				5101761F18DD508F00F036F2 /* Noise-hd.png in Resources */,
@@ -886,9 +940,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				5198C4F418E27ECE006D2B69 /* SampleScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				5174F97318D149200003CC17 /* WelcomeLayer.cpp in Sources */,
+				5192BEC018E2C93A00BB322D /* MapLayer.cpp in Sources */,
 				5174F97418D149200003CC17 /* WelcomeScene.cpp in Sources */,
+				5192BEC418E2CC9A00BB322D /* GameScene.cpp in Sources */,
 				51E39B5318DC3A420086C64C /* Terrain.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				51E39B5018DC38640086C64C /* MotionStreakExampleScene.cpp in Sources */,
@@ -902,6 +959,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5198C4F518E27ECE006D2B69 /* SampleScene.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				5101761E18DD4F8800F036F2 /* AsideLayer.cpp in Sources */,
 				5101761A18DD4F7100F036F2 /* Terrain.cpp in Sources */,
@@ -909,6 +967,8 @@
 				5101761B18DD4F7F00F036F2 /* WelcomeScene.cpp in Sources */,
 				5101761D18DD4F8500F036F2 /* PreviousScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				5192BEC518E2CC9A00BB322D /* GameScene.cpp in Sources */,
+				5192BEC118E2C93A00BB322D /* MapLayer.cpp in Sources */,
 				5101761918DD4F6D00F036F2 /* MotionStreakExampleScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

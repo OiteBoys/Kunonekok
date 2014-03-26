@@ -1,6 +1,8 @@
 #include "AppDelegate.h"
 #include "PreviousScene.h"
 #include "MotionStreakExampleScene.h"
+#include "SampleScene.h"
+#include "GameScene.h"
 
 USING_NS_CC;
 
@@ -22,17 +24,18 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	this->setResourceSearchResolution();
 
     // turn on display FPS
-    director->setDisplayStats(true);
+    director->setDisplayStats(false);
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
     //auto scene = HelloWorld::createScene();
-	auto scene = MotionStreakExampleScene::create();
+	auto scene = GameScene::create();
 
     // run
     director->runWithScene(scene);
+    Director::getInstance()->setProjection(Director::Projection::_2D);
 
     return true;
 }

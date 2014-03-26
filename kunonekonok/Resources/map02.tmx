@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="9" height="16" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="map" tilewidth="16" tileheight="16">
+  <image source="F:/kononekoK/Data.wolf~/MapChip/map.png" width="128" height="5648"/>
+ </tileset>
+ <layer name="ground" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxzZGVgcAJiZyB2xMH2BGIvIPbGww4E4iAgDsbDxmX+qF1D1y4A7M8sKQ==
+  </data>
+ </layer>
+ <layer name="wall" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjZGNgYAJiZiyYBYhDmRkYOIE0FxBzY8E8UDWCQFoIiIWR8BtWBoZ3QCwCVUMIUEsNMYCe7hlMakDyxJpDDAYAGH4LhQ==
+  </data>
+ </layer>
+ <layer name="furniture" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMJLkYGKS48KtRBMorEVBDDGBlYWBgA2JGIGZiwa6GFyjOB8ScQMyFQ40oUFwMiAWBWAiHGmqBd4wQjA6UmSCYWDXIQA6LGAycAobzabSwnsoMwTBwCSh/mYAabGAuMwQTCwAADwzL
+  </data>
+ </layer>
+</map>
