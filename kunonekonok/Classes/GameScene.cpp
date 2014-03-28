@@ -21,6 +21,11 @@ bool GameScene::init() {
         if(mapLayer) {
             this->addChild(mapLayer);
         }
+        
+        gameLayer = GameLayer::create();
+        if(gameLayer) {
+            this->addChild(gameLayer);
+        }
         return true;
     } else {
         return false;

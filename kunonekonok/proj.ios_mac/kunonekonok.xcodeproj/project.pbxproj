@@ -90,6 +90,17 @@
 		5101763118DD50C700F036F2 /* spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98C18D149430003CC17 /* spotlight.png */; };
 		5101763218DD50CA00F036F2 /* zu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98D18D149430003CC17 /* zu.png */; };
 		5101763318DD50CE00F036F2 /* chinese.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 5174F97C18D149370003CC17 /* chinese.fnt */; };
+		5149D43C18E5260F003B25A4 /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CBF18E3C70B00CAEF4B /* haha.png */; };
+		5149D44318E52613003B25A4 /* kodomo.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC018E3C70B00CAEF4B /* kodomo.png */; };
+		5149D44418E52616003B25A4 /* majo.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC118E3C70B00CAEF4B /* majo.png */; };
+		5149D44518E52619003B25A4 /* majo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC218E3C70B00CAEF4B /* majo3.png */; };
+		5149D44618E5261C003B25A4 /* mura.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC318E3C70B00CAEF4B /* mura.png */; };
+		5149D44718E5261F003B25A4 /* neko.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC418E3C70B00CAEF4B /* neko.png */; };
+		5149D44818E52621003B25A4 /* obaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC518E3C70B00CAEF4B /* obaa.png */; };
+		5149D44918E52624003B25A4 /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC618E3C70B00CAEF4B /* p1.png */; };
+		5149D44A18E52627003B25A4 /* singosyu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC718E3C70B00CAEF4B /* singosyu2.png */; };
+		5165149718E521A60059E89C /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5165149618E521A60059E89C /* GameLayer.cpp */; };
+		5165149818E521A60059E89C /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5165149618E521A60059E89C /* GameLayer.cpp */; };
 		5174F97118D149200003CC17 /* AsideLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96918D149200003CC17 /* AsideLayer.cpp */; };
 		5174F97218D149200003CC17 /* PreviousScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96B18D149200003CC17 /* PreviousScene.cpp */; };
 		5174F97318D149200003CC17 /* WelcomeLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96D18D149200003CC17 /* WelcomeLayer.cpp */; };
@@ -112,6 +123,19 @@
 		5174F99B18D149430003CC17 /* spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98C18D149430003CC17 /* spotlight.png */; };
 		5174F99C18D149430003CC17 /* zu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5174F98D18D149430003CC17 /* zu.png */; };
 		5174F99E18D149570003CC17 /* previous.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5174F99D18D149570003CC17 /* previous.xml */; };
+		51916CB718E3BD5500CAEF4B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CB618E3BD5500CAEF4B /* map.png */; };
+		51916CBE18E3BD6B00CAEF4B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CB618E3BD5500CAEF4B /* map.png */; };
+		51916CC818E3C70B00CAEF4B /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CBF18E3C70B00CAEF4B /* haha.png */; };
+		51916CC918E3C70B00CAEF4B /* kodomo.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC018E3C70B00CAEF4B /* kodomo.png */; };
+		51916CCA18E3C70B00CAEF4B /* majo.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC118E3C70B00CAEF4B /* majo.png */; };
+		51916CCB18E3C70B00CAEF4B /* majo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC218E3C70B00CAEF4B /* majo3.png */; };
+		51916CCC18E3C70B00CAEF4B /* mura.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC318E3C70B00CAEF4B /* mura.png */; };
+		51916CCD18E3C70B00CAEF4B /* neko.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC418E3C70B00CAEF4B /* neko.png */; };
+		51916CCE18E3C70B00CAEF4B /* obaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC518E3C70B00CAEF4B /* obaa.png */; };
+		51916CCF18E3C70B00CAEF4B /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC618E3C70B00CAEF4B /* p1.png */; };
+		51916CD018E3C70B00CAEF4B /* singosyu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC718E3C70B00CAEF4B /* singosyu2.png */; };
+		51916CDA18E3CBBD00CAEF4B /* CharacterSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51916CD918E3CBBD00CAEF4B /* CharacterSprite.cpp */; };
+		51916CDB18E3CBBD00CAEF4B /* CharacterSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51916CD918E3CBBD00CAEF4B /* CharacterSprite.cpp */; };
 		5192BEB718E2C88000BB322D /* map02.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5192BEB618E2C88000BB322D /* map02.tmx */; };
 		5192BEC018E2C93A00BB322D /* MapLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEBF18E2C93A00BB322D /* MapLayer.cpp */; };
 		5192BEC118E2C93A00BB322D /* MapLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEBF18E2C93A00BB322D /* MapLayer.cpp */; };
@@ -358,6 +382,8 @@
 		5101761318DD42E600F036F2 /* Noise-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noise-hd.png"; sourceTree = "<group>"; };
 		5101761418DD42E600F036F2 /* Noise-iphone5hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noise-iphone5hd.png"; sourceTree = "<group>"; };
 		5101761518DD42E600F036F2 /* Noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noise.png; sourceTree = "<group>"; };
+		5165148F18E521930059E89C /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLayer.h; path = ../Classes/GameLayer.h; sourceTree = "<group>"; };
+		5165149618E521A60059E89C /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameLayer.cpp; path = ../Classes/GameLayer.cpp; sourceTree = "<group>"; };
 		5174F96918D149200003CC17 /* AsideLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AsideLayer.cpp; path = ../Classes/AsideLayer.cpp; sourceTree = "<group>"; };
 		5174F96A18D149200003CC17 /* AsideLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsideLayer.h; path = ../Classes/AsideLayer.h; sourceTree = "<group>"; };
 		5174F96B18D149200003CC17 /* PreviousScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PreviousScene.cpp; path = ../Classes/PreviousScene.cpp; sourceTree = "<group>"; };
@@ -384,6 +410,18 @@
 		5174F98C18D149430003CC17 /* spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spotlight.png; path = images/spotlight.png; sourceTree = "<group>"; };
 		5174F98D18D149430003CC17 /* zu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zu.png; path = images/zu.png; sourceTree = "<group>"; };
 		5174F99D18D149570003CC17 /* previous.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = previous.xml; path = text/previous.xml; sourceTree = "<group>"; };
+		51916CB618E3BD5500CAEF4B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		51916CBF18E3C70B00CAEF4B /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = haha.png; path = characters/haha.png; sourceTree = "<group>"; };
+		51916CC018E3C70B00CAEF4B /* kodomo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kodomo.png; path = characters/kodomo.png; sourceTree = "<group>"; };
+		51916CC118E3C70B00CAEF4B /* majo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = majo.png; path = characters/majo.png; sourceTree = "<group>"; };
+		51916CC218E3C70B00CAEF4B /* majo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = majo3.png; path = characters/majo3.png; sourceTree = "<group>"; };
+		51916CC318E3C70B00CAEF4B /* mura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mura.png; path = characters/mura.png; sourceTree = "<group>"; };
+		51916CC418E3C70B00CAEF4B /* neko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neko.png; path = characters/neko.png; sourceTree = "<group>"; };
+		51916CC518E3C70B00CAEF4B /* obaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obaa.png; path = characters/obaa.png; sourceTree = "<group>"; };
+		51916CC618E3C70B00CAEF4B /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p1.png; path = characters/p1.png; sourceTree = "<group>"; };
+		51916CC718E3C70B00CAEF4B /* singosyu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = singosyu2.png; path = characters/singosyu2.png; sourceTree = "<group>"; };
+		51916CD818E3CB9A00CAEF4B /* CharacterSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterSprite.h; path = ../Classes/CharacterSprite.h; sourceTree = "<group>"; };
+		51916CD918E3CBBD00CAEF4B /* CharacterSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CharacterSprite.cpp; path = ../Classes/CharacterSprite.cpp; sourceTree = "<group>"; };
 		5192BEB618E2C88000BB322D /* map02.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map02.tmx; sourceTree = "<group>"; };
 		5192BEBE18E2C8C700BB322D /* MapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapLayer.h; path = ../Classes/MapLayer.h; sourceTree = "<group>"; };
 		5192BEBF18E2C93A00BB322D /* MapLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MapLayer.cpp; path = ../Classes/MapLayer.cpp; sourceTree = "<group>"; };
@@ -478,27 +516,31 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
+				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				5174F96918D149200003CC17 /* AsideLayer.cpp */,
 				5174F96A18D149200003CC17 /* AsideLayer.h */,
+				51916CD918E3CBBD00CAEF4B /* CharacterSprite.cpp */,
+				51916CD818E3CB9A00CAEF4B /* CharacterSprite.h */,
+				5165149618E521A60059E89C /* GameLayer.cpp */,
+				5165148F18E521930059E89C /* GameLayer.h */,
+				5192BEC318E2CC9A00BB322D /* GameScene.cpp */,
+				5192BEC218E2CB2C00BB322D /* GameScene.h */,
+				5192BEBF18E2C93A00BB322D /* MapLayer.cpp */,
+				5192BEBE18E2C8C700BB322D /* MapLayer.h */,
+				51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */,
+				51E39B4818DC384C0086C64C /* MotionStreakExampleScene.h */,
 				5174F96B18D149200003CC17 /* PreviousScene.cpp */,
 				5174F96C18D149200003CC17 /* PreviousScene.h */,
+				5198C4F318E27ECE006D2B69 /* SampleScene.cpp */,
+				5198C4F218E27E5D006D2B69 /* SampleScene.h */,
+				51E39B5218DC3A420086C64C /* Terrain.cpp */,
+				51E39B5118DC3A350086C64C /* Terrain.h */,
+				51E39BC918DD32C30086C64C /* Utils.h */,
 				5174F96D18D149200003CC17 /* WelcomeLayer.cpp */,
 				5174F96E18D149200003CC17 /* WelcomeLayer.h */,
 				5174F96F18D149200003CC17 /* WelcomeScene.cpp */,
 				5174F97018D149200003CC17 /* WelcomeScene.h */,
-				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
-				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
-				51E39B4818DC384C0086C64C /* MotionStreakExampleScene.h */,
-				51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */,
-				5192BEBE18E2C8C700BB322D /* MapLayer.h */,
-				5192BEBF18E2C93A00BB322D /* MapLayer.cpp */,
-				51E39B5118DC3A350086C64C /* Terrain.h */,
-				51E39B5218DC3A420086C64C /* Terrain.cpp */,
-				51E39BC918DD32C30086C64C /* Utils.h */,
-				5198C4F218E27E5D006D2B69 /* SampleScene.h */,
-				5198C4F318E27ECE006D2B69 /* SampleScene.cpp */,
-				5192BEC218E2CB2C00BB322D /* GameScene.h */,
-				5192BEC318E2CC9A00BB322D /* GameScene.cpp */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -618,6 +660,16 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				51916CBF18E3C70B00CAEF4B /* haha.png */,
+				51916CC018E3C70B00CAEF4B /* kodomo.png */,
+				51916CC118E3C70B00CAEF4B /* majo.png */,
+				51916CC218E3C70B00CAEF4B /* majo3.png */,
+				51916CC318E3C70B00CAEF4B /* mura.png */,
+				51916CC418E3C70B00CAEF4B /* neko.png */,
+				51916CC518E3C70B00CAEF4B /* obaa.png */,
+				51916CC618E3C70B00CAEF4B /* p1.png */,
+				51916CC718E3C70B00CAEF4B /* singosyu2.png */,
+				51916CB618E3BD5500CAEF4B /* map.png */,
 				5198C4E618E27CFF006D2B69 /* background.png */,
 				5198C4E718E27CFF006D2B69 /* boy.plist */,
 				5198C4E818E27CFF006D2B69 /* boy.png */,
@@ -847,10 +899,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5198C4EB18E27CFF006D2B69 /* boy.png in Resources */,
+				51916CCB18E3C70B00CAEF4B /* majo3.png in Resources */,
+				51916CCA18E3C70B00CAEF4B /* majo.png in Resources */,
 				5174F97E18D149370003CC17 /* chinese.fnt in Resources */,
 				5198C4E918E27CFF006D2B69 /* background.png in Resources */,
 				5101761718DD42E600F036F2 /* Noise-iphone5hd.png in Resources */,
 				5174F99518D149430003CC17 /* neko_embarrass2.png in Resources */,
+				51916CCC18E3C70B00CAEF4B /* mura.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5198C4FD18E285CD006D2B69 /* run.png in Resources */,
@@ -868,6 +923,8 @@
 				5174F99E18D149570003CC17 /* previous.xml in Resources */,
 				5198C4EA18E27CFF006D2B69 /* boy.plist in Resources */,
 				5174F99918D149430003CC17 /* neko.png in Resources */,
+				51916CCE18E3C70B00CAEF4B /* obaa.png in Resources */,
+				51916CC918E3C70B00CAEF4B /* kodomo.png in Resources */,
 				5198C4FB18E285CD006D2B69 /* run.plist in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
@@ -877,10 +934,12 @@
 				5101761618DD42E600F036F2 /* Noise-hd.png in Resources */,
 				5174F98F18D149430003CC17 /* K.jpg in Resources */,
 				5174F98E18D149430003CC17 /* imgbb49db23839f4e9.png in Resources */,
+				51916CC818E3C70B00CAEF4B /* haha.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				5192BEB718E2C88000BB322D /* map02.tmx in Resources */,
 				5174F99118D149430003CC17 /* magic_girl_smile.png in Resources */,
+				51916CD018E3C70B00CAEF4B /* singosyu2.png in Resources */,
 				5174F99618D149430003CC17 /* neko_happy.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
@@ -888,9 +947,12 @@
 				5174F99418D149430003CC17 /* neko_embarrass.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
+				51916CCD18E3C70B00CAEF4B /* neko.png in Resources */,
+				51916CB718E3BD5500CAEF4B /* map.png in Resources */,
 				5174F99018D149430003CC17 /* ki.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				5174F99A18D149430003CC17 /* seikai.png in Resources */,
+				51916CCF18E3C70B00CAEF4B /* p1.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 				5174F99318D149430003CC17 /* midori.png in Resources */,
 			);
@@ -900,31 +962,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5149D44918E52624003B25A4 /* p1.png in Resources */,
 				5101763318DD50CE00F036F2 /* chinese.fnt in Resources */,
+				5149D44618E5261C003B25A4 /* mura.png in Resources */,
 				5101763218DD50CA00F036F2 /* zu.png in Resources */,
 				5101762518DD50A300F036F2 /* K.jpg in Resources */,
 				5198C4FC18E285CD006D2B69 /* run.plist in Resources */,
 				5101762A18DD50B300F036F2 /* neko_embarrass.png in Resources */,
 				5101762718DD50A900F036F2 /* magic_girl_smile.png in Resources */,
+				5149D44318E52613003B25A4 /* kodomo.png in Resources */,
 				5101762418DD509F00F036F2 /* imgbb49db23839f4e9.png in Resources */,
 				5101762218DD509900F036F2 /* previous.xml in Resources */,
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
 				5101762118DD509500F036F2 /* Noise.png in Resources */,
+				5149D44418E52616003B25A4 /* majo.png in Resources */,
 				5101763018DD50C500F036F2 /* seikai.png in Resources */,
 				5101763118DD50C700F036F2 /* spotlight.png in Resources */,
+				5149D43C18E5260F003B25A4 /* haha.png in Resources */,
 				5101762C18DD50B900F036F2 /* neko_happy.png in Resources */,
 				5101762018DD509100F036F2 /* Noise-iphone5hd.png in Resources */,
+				5149D44A18E52627003B25A4 /* singosyu2.png in Resources */,
 				5101762B18DD50B600F036F2 /* neko_embarrass2.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
+				5149D44718E5261F003B25A4 /* neko.png in Resources */,
 				5198C4FA18E285CD006D2B69 /* background.png in Resources */,
 				5087E75417EB910900C73F5D /* CloseSelected.png in Resources */,
 				5101762818DD50AC00F036F2 /* magic_girl.png in Resources */,
 				5198C4FE18E285CD006D2B69 /* run.png in Resources */,
 				5101762318DD509C00F036F2 /* chinese_0.png in Resources */,
+				5149D44518E52619003B25A4 /* majo3.png in Resources */,
 				5101762F18DD50C200F036F2 /* neko.png in Resources */,
 				5101762E18DD50BF00F036F2 /* neko_odoroki.png in Resources */,
 				5101762918DD50AF00F036F2 /* midori.png in Resources */,
+				5149D44818E52621003B25A4 /* obaa.png in Resources */,
 				5192BEC618E2CF4500BB322D /* map02.tmx in Resources */,
+				51916CBE18E3BD6B00CAEF4B /* map.png in Resources */,
 				5101762618DD50A600F036F2 /* ki.png in Resources */,
 				5087E75517EB910900C73F5D /* HelloWorld.png in Resources */,
 				5101761F18DD508F00F036F2 /* Noise-hd.png in Resources */,
@@ -944,11 +1016,13 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				5174F97318D149200003CC17 /* WelcomeLayer.cpp in Sources */,
 				5192BEC018E2C93A00BB322D /* MapLayer.cpp in Sources */,
+				5165149718E521A60059E89C /* GameLayer.cpp in Sources */,
 				5174F97418D149200003CC17 /* WelcomeScene.cpp in Sources */,
 				5192BEC418E2CC9A00BB322D /* GameScene.cpp in Sources */,
 				51E39B5318DC3A420086C64C /* Terrain.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				51E39B5018DC38640086C64C /* MotionStreakExampleScene.cpp in Sources */,
+				51916CDA18E3CBBD00CAEF4B /* CharacterSprite.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				5174F97218D149200003CC17 /* PreviousScene.cpp in Sources */,
 				5174F97118D149200003CC17 /* AsideLayer.cpp in Sources */,
@@ -959,12 +1033,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51916CDB18E3CBBD00CAEF4B /* CharacterSprite.cpp in Sources */,
 				5198C4F518E27ECE006D2B69 /* SampleScene.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				5101761E18DD4F8800F036F2 /* AsideLayer.cpp in Sources */,
 				5101761A18DD4F7100F036F2 /* Terrain.cpp in Sources */,
 				5101761C18DD4F8200F036F2 /* WelcomeLayer.cpp in Sources */,
 				5101761B18DD4F7F00F036F2 /* WelcomeScene.cpp in Sources */,
+				5165149818E521A60059E89C /* GameLayer.cpp in Sources */,
 				5101761D18DD4F8500F036F2 /* PreviousScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				5192BEC518E2CC9A00BB322D /* GameScene.cpp in Sources */,

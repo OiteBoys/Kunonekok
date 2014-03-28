@@ -9,6 +9,7 @@
 #pragma once
 #include "cocos2d.h"
 #include "MapLayer.h"
+#include "GameLayer.h"
 
 using namespace cocos2d;
 
@@ -21,5 +22,6 @@ public:
     
 private:
     MapLayer *mapLayer;
+    GameLayer *gameLayer;
 };
 
