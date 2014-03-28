@@ -99,6 +99,12 @@
 		5149D44818E52621003B25A4 /* obaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC518E3C70B00CAEF4B /* obaa.png */; };
 		5149D44918E52624003B25A4 /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC618E3C70B00CAEF4B /* p1.png */; };
 		5149D44A18E52627003B25A4 /* singosyu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51916CC718E3C70B00CAEF4B /* singosyu2.png */; };
+		5149D44D18E561A9003B25A4 /* button_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 5149D44B18E561A9003B25A4 /* button_ok.png */; };
+		5149D44E18E561A9003B25A4 /* button_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 5149D44B18E561A9003B25A4 /* button_ok.png */; };
+		5149D44F18E561A9003B25A4 /* pad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5149D44C18E561A9003B25A4 /* pad.png */; };
+		5149D45018E561A9003B25A4 /* pad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5149D44C18E561A9003B25A4 /* pad.png */; };
+		5149D45318E56203003B25A4 /* OptionLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5149D45118E56203003B25A4 /* OptionLayer.cpp */; };
+		5149D45418E56203003B25A4 /* OptionLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5149D45118E56203003B25A4 /* OptionLayer.cpp */; };
 		5165149718E521A60059E89C /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5165149618E521A60059E89C /* GameLayer.cpp */; };
 		5165149818E521A60059E89C /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5165149618E521A60059E89C /* GameLayer.cpp */; };
 		5174F97118D149200003CC17 /* AsideLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5174F96918D149200003CC17 /* AsideLayer.cpp */; };
@@ -382,6 +388,10 @@
 		5101761318DD42E600F036F2 /* Noise-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noise-hd.png"; sourceTree = "<group>"; };
 		5101761418DD42E600F036F2 /* Noise-iphone5hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noise-iphone5hd.png"; sourceTree = "<group>"; };
 		5101761518DD42E600F036F2 /* Noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noise.png; sourceTree = "<group>"; };
+		5149D44B18E561A9003B25A4 /* button_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ok.png; sourceTree = "<group>"; };
+		5149D44C18E561A9003B25A4 /* pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pad.png; sourceTree = "<group>"; };
+		5149D45118E56203003B25A4 /* OptionLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionLayer.cpp; sourceTree = "<group>"; };
+		5149D45218E56203003B25A4 /* OptionLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionLayer.h; sourceTree = "<group>"; };
 		5165148F18E521930059E89C /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLayer.h; path = ../Classes/GameLayer.h; sourceTree = "<group>"; };
 		5165149618E521A60059E89C /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameLayer.cpp; path = ../Classes/GameLayer.cpp; sourceTree = "<group>"; };
 		5174F96918D149200003CC17 /* AsideLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AsideLayer.cpp; path = ../Classes/AsideLayer.cpp; sourceTree = "<group>"; };
@@ -522,6 +532,8 @@
 				5174F96A18D149200003CC17 /* AsideLayer.h */,
 				51916CD918E3CBBD00CAEF4B /* CharacterSprite.cpp */,
 				51916CD818E3CB9A00CAEF4B /* CharacterSprite.h */,
+				5149D45118E56203003B25A4 /* OptionLayer.cpp */,
+				5149D45218E56203003B25A4 /* OptionLayer.h */,
 				5165149618E521A60059E89C /* GameLayer.cpp */,
 				5165148F18E521930059E89C /* GameLayer.h */,
 				5192BEC318E2CC9A00BB322D /* GameScene.cpp */,
@@ -660,6 +672,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5149D44B18E561A9003B25A4 /* button_ok.png */,
+				5149D44C18E561A9003B25A4 /* pad.png */,
 				51916CBF18E3C70B00CAEF4B /* haha.png */,
 				51916CC018E3C70B00CAEF4B /* kodomo.png */,
 				51916CC118E3C70B00CAEF4B /* majo.png */,
@@ -915,6 +929,7 @@
 				5174F99818D149430003CC17 /* neko_odoroki.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5174F99B18D149430003CC17 /* spotlight.png in Resources */,
+				5149D44D18E561A9003B25A4 /* button_ok.png in Resources */,
 				5101761818DD42E600F036F2 /* Noise.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5174F99218D149430003CC17 /* magic_girl.png in Resources */,
@@ -949,6 +964,7 @@
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				51916CCD18E3C70B00CAEF4B /* neko.png in Resources */,
 				51916CB718E3BD5500CAEF4B /* map.png in Resources */,
+				5149D44F18E561A9003B25A4 /* pad.png in Resources */,
 				5174F99018D149430003CC17 /* ki.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				5174F99A18D149430003CC17 /* seikai.png in Resources */,
@@ -975,6 +991,7 @@
 				5101762218DD509900F036F2 /* previous.xml in Resources */,
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
 				5101762118DD509500F036F2 /* Noise.png in Resources */,
+				5149D44E18E561A9003B25A4 /* button_ok.png in Resources */,
 				5149D44418E52616003B25A4 /* majo.png in Resources */,
 				5101763018DD50C500F036F2 /* seikai.png in Resources */,
 				5101763118DD50C700F036F2 /* spotlight.png in Resources */,
@@ -1001,6 +1018,7 @@
 				5087E75517EB910900C73F5D /* HelloWorld.png in Resources */,
 				5101761F18DD508F00F036F2 /* Noise-hd.png in Resources */,
 				5101762D18DD50BC00F036F2 /* neko_happy２.png in Resources */,
+				5149D45018E561A9003B25A4 /* pad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1017,6 +1035,7 @@
 				5174F97318D149200003CC17 /* WelcomeLayer.cpp in Sources */,
 				5192BEC018E2C93A00BB322D /* MapLayer.cpp in Sources */,
 				5165149718E521A60059E89C /* GameLayer.cpp in Sources */,
+				5149D45318E56203003B25A4 /* OptionLayer.cpp in Sources */,
 				5174F97418D149200003CC17 /* WelcomeScene.cpp in Sources */,
 				5192BEC418E2CC9A00BB322D /* GameScene.cpp in Sources */,
 				51E39B5318DC3A420086C64C /* Terrain.cpp in Sources */,
@@ -1039,6 +1058,7 @@
 				5101761E18DD4F8800F036F2 /* AsideLayer.cpp in Sources */,
 				5101761A18DD4F7100F036F2 /* Terrain.cpp in Sources */,
 				5101761C18DD4F8200F036F2 /* WelcomeLayer.cpp in Sources */,
+				5149D45418E56203003B25A4 /* OptionLayer.cpp in Sources */,
 				5101761B18DD4F7F00F036F2 /* WelcomeScene.cpp in Sources */,
 				5165149818E521A60059E89C /* GameLayer.cpp in Sources */,
 				5101761D18DD4F8500F036F2 /* PreviousScene.cpp in Sources */,

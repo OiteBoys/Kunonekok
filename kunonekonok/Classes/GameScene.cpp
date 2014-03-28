@@ -31,3 +31,9 @@ bool GameScene::init() {
         return false;
     }
 }
+
+void GameScene::onWalk(Direction direction) {
+}
+
+void GameScene::onStop() {
+}
