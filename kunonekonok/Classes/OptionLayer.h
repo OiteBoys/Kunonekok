@@ -37,8 +37,17 @@ public:
     
     CC_SYNTHESIZE(OptionDelegate*, delegator, Delegator);
     
+    void setLocation(const Point location);
+    Point getLocation();
+    
+    void setRadius(const float radius);
+    float getRadius();
+    
 private:
     Sprite *joystick;
+    
+    Point location;
+    float radius;
     
     void activeJoystick(Point position);
     void inactiveJoystick();

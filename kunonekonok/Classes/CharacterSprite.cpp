@@ -8,6 +8,22 @@
 
 #include "CharacterSprite.h"
 
+CharacterSprite* CharacterSprite::shareCharacterSprite = nullptr;
+
+CharacterSprite* CharacterSprite::getInstance(){
+    if(shareCharacterSprite == NULL){
+        shareCharacterSprite = new CharacterSprite();
+        if(!shareCharacterSprite->init()){
+            delete(shareCharacterSprite);
+            shareCharacterSprite = NULL;
+            CCLOG("ERROR: Could not init shareCharacterSprite");
+        }
+    }
+    return shareCharacterSprite;
+}
+
+
+
 CharacterSprite::CharacterSprite(){}
 
 CharacterSprite::~CharacterSprite(){}
@@ -23,11 +39,23 @@ bool CharacterSprite::initWithFile(const string& file) {
     }
 }
 
+void CharacterSprite::setFile(const string &filename) {
+    this->setTexture(filename);
+    Size textureSize = this->getContentSize();
+    frameSize = Size(textureSize.width/3, textureSize.height/4);
+    initActions();
+}
+
 void CharacterSprite::initActions() {
+    
     this->walkDownAction = RepeatForever::create(Animate::create(this->getActionAniamation(0)));
+    this->walkDownAction->retain();
     this->walkLeftAction = RepeatForever::create(Animate::create(this->getActionAniamation(1)));
+    this->walkLeftAction->retain();
     this->walkRightAction = RepeatForever::create(Animate::create(this->getActionAniamation(2)));
+    this->walkRightAction->retain();
     this->walkUpAction = RepeatForever::create(Animate::create(this->getActionAniamation(3)));
+    this->walkUpAction->retain();
 }
 
 Animation* CharacterSprite::getActionAniamation(const int row) {
@@ -57,7 +85,12 @@ void CharacterSprite::idle(Direction direction) {
     }
 }
 
+void CharacterSprite::idle() {
+    this->idle(this->currentDirection);
+}
+
 void CharacterSprite::walk(Direction direction) {
+    this->currentDirection = direction;
     if (changeState(ACTION_STATE_WALK)) {
         if(direction == DIRECTION_DOWN) {
             this->runAction(this->walkDownAction);
@@ -87,4 +120,23 @@ CharacterSprite* CharacterSprite::create(const std::string& filename)
     }
     CC_SAFE_DELETE(sprite);
     return nullptr;
+}
+
+void CharacterSprite::update(float dt) {
+    if(this->currentStatus == ACTION_STATE_WALK) {
+        const float speed = 1;
+        auto shiftVect = Point(0, 0);
+        if(this->currentDirection == Direction::DIRECTION_UP) {
+            shiftVect = Point(0, speed);
+        }else if(this->currentDirection == Direction::DIRECTION_DOWN) {
+            shiftVect = Point(0, -speed);
+        }else if(this->currentDirection == Direction::DIRECTION_LEFT) {
+            shiftVect = Point(-speed, 0);
+        }else if(this->currentDirection == Direction::DIRECTION_RIGHT) {
+            shiftVect = Point(speed, 0);
+        }
+        auto currentPosition = this->getPosition();
+        this->setPosition(currentPosition + shiftVect);
+    }
+    
 }

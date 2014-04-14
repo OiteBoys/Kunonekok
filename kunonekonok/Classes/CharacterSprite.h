@@ -32,6 +32,11 @@ public:
     virtual bool initWithFile(const string& filename);
     static CharacterSprite* create(const string& filename);
     
+    void setFile(const string& filename);
+    void update(float dt);
+    
+    static CharacterSprite* getInstance();
+    
     CC_SYNTHESIZE_RETAIN(Action*, idleAction, IdleAction);
     CC_SYNTHESIZE_RETAIN(Action*, walkUpAction, WalkUpAction);
     CC_SYNTHESIZE_RETAIN(Action*, walkDownAction, WalkDownAction);
@@ -39,12 +44,15 @@ public:
     CC_SYNTHESIZE_RETAIN(Action*, walkRightAction, WalkRightAction);
     
     void idle(Direction direction);
+    void idle();
     void walk(Direction direction);
     
 private:
+    static CharacterSprite* shareCharacterSprite;
     void initActions();
     Animation* getActionAniamation(const int row);
     Size frameSize;
+    Direction currentDirection;
     
     bool changeState(ActionState state);
     ActionState currentStatus;

@@ -27,5 +27,6 @@ public:
 private:
     MapLayer *mapLayer;
     GameLayer *gameLayer;
+    OptionLayer *optionLayer;
 };
 

@@ -148,9 +148,6 @@
 		5192BEC418E2CC9A00BB322D /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEC318E2CC9A00BB322D /* GameScene.cpp */; };
 		5192BEC518E2CC9A00BB322D /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5192BEC318E2CC9A00BB322D /* GameScene.cpp */; };
 		5192BEC618E2CF4500BB322D /* map02.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5192BEB618E2C88000BB322D /* map02.tmx */; };
-		5198C4E918E27CFF006D2B69 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4E618E27CFF006D2B69 /* background.png */; };
-		5198C4EA18E27CFF006D2B69 /* boy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4E718E27CFF006D2B69 /* boy.plist */; };
-		5198C4EB18E27CFF006D2B69 /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4E818E27CFF006D2B69 /* boy.png */; };
 		5198C4F418E27ECE006D2B69 /* SampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5198C4F318E27ECE006D2B69 /* SampleScene.cpp */; };
 		5198C4F518E27ECE006D2B69 /* SampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5198C4F318E27ECE006D2B69 /* SampleScene.cpp */; };
 		5198C4F918E285CD006D2B69 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F618E285CC006D2B69 /* background.png */; };
@@ -437,9 +434,6 @@
 		5192BEBF18E2C93A00BB322D /* MapLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MapLayer.cpp; path = ../Classes/MapLayer.cpp; sourceTree = "<group>"; };
 		5192BEC218E2CB2C00BB322D /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
 		5192BEC318E2CC9A00BB322D /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
-		5198C4E618E27CFF006D2B69 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../StreetBoy/StreetBoy/Resources/background.png; sourceTree = "<group>"; };
-		5198C4E718E27CFF006D2B69 /* boy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = boy.plist; path = ../../../StreetBoy/StreetBoy/Resources/boy.plist; sourceTree = "<group>"; };
-		5198C4E818E27CFF006D2B69 /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy.png; path = ../../../StreetBoy/StreetBoy/Resources/boy.png; sourceTree = "<group>"; };
 		5198C4F218E27E5D006D2B69 /* SampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleScene.h; path = ../Classes/SampleScene.h; sourceTree = "<group>"; };
 		5198C4F318E27ECE006D2B69 /* SampleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SampleScene.cpp; path = ../Classes/SampleScene.cpp; sourceTree = "<group>"; };
 		5198C4F618E285CC006D2B69 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
@@ -684,9 +678,6 @@
 				51916CC618E3C70B00CAEF4B /* p1.png */,
 				51916CC718E3C70B00CAEF4B /* singosyu2.png */,
 				51916CB618E3BD5500CAEF4B /* map.png */,
-				5198C4E618E27CFF006D2B69 /* background.png */,
-				5198C4E718E27CFF006D2B69 /* boy.plist */,
-				5198C4E818E27CFF006D2B69 /* boy.png */,
 				5101761318DD42E600F036F2 /* Noise-hd.png */,
 				5101761418DD42E600F036F2 /* Noise-iphone5hd.png */,
 				5101761518DD42E600F036F2 /* Noise.png */,
@@ -912,11 +903,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5198C4EB18E27CFF006D2B69 /* boy.png in Resources */,
 				51916CCB18E3C70B00CAEF4B /* majo3.png in Resources */,
 				51916CCA18E3C70B00CAEF4B /* majo.png in Resources */,
 				5174F97E18D149370003CC17 /* chinese.fnt in Resources */,
-				5198C4E918E27CFF006D2B69 /* background.png in Resources */,
 				5101761718DD42E600F036F2 /* Noise-iphone5hd.png in Resources */,
 				5174F99518D149430003CC17 /* neko_embarrass2.png in Resources */,
 				51916CCC18E3C70B00CAEF4B /* mura.png in Resources */,
@@ -936,7 +925,6 @@
 				5174F99718D149430003CC17 /* neko_happy２.png in Resources */,
 				5174F99C18D149430003CC17 /* zu.png in Resources */,
 				5174F99E18D149570003CC17 /* previous.xml in Resources */,
-				5198C4EA18E27CFF006D2B69 /* boy.plist in Resources */,
 				5174F99918D149430003CC17 /* neko.png in Resources */,
 				51916CCE18E3C70B00CAEF4B /* obaa.png in Resources */,
 				51916CC918E3C70B00CAEF4B /* kodomo.png in Resources */,

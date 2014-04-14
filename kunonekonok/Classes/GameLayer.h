@@ -18,6 +18,9 @@ public:
     ~GameLayer();
     bool virtual init();
     CREATE_FUNC(GameLayer);
+    void update(float dt);
+    void onWalk(Direction direction);
+    void onStop();
     
 private:
     CharacterSprite* hero;
