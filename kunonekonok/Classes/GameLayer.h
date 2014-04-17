@@ -9,6 +9,7 @@
 #pragma once
 #include "cocos2d.h"
 #include "CharacterSprite.h"
+#include "MapLayer.h"
 
 using namespace cocos2d;
 
@@ -22,6 +23,9 @@ public:
     void onWalk(Direction direction);
     void onStop();
     
+    CharacterSprite* getHero();
+    
+    CC_SYNTHESIZE(MapLayer*, mapLayer, TileMapLayer);
 private:
     CharacterSprite* hero;
 };

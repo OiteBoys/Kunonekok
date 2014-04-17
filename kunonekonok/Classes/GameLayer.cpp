@@ -40,5 +40,46 @@ void GameLayer::onStop() {
 }
 
 void GameLayer::update(float dt) {
-    hero->update(dt);
+    if(hero->getCurrentStatus() == ACTION_STATE_WALK) {
+        const float speed = 1;
+        auto shiftVect = Point(0, 0);
+        if(hero->getCurrentDirection() == Direction::DIRECTION_UP) {
+            shiftVect = Point(0, speed);
+        }else if(hero->getCurrentDirection() == Direction::DIRECTION_DOWN) {
+            shiftVect = Point(0, -speed);
+        }else if(hero->getCurrentDirection() == Direction::DIRECTION_LEFT) {
+            shiftVect = Point(-speed, 0);
+        }else if(hero->getCurrentDirection()== Direction::DIRECTION_RIGHT) {
+            shiftVect = Point(speed, 0);
+        }
+        auto currentPosition = hero->getPosition();
+        
+        // check this position can access
+        auto nextPosition = currentPosition + shiftVect;
+        auto map = this->getTileMapLayer()->getTileMap();
+        if(!map->getBoundingBox().containsPoint(nextPosition)) {
+            return;
+        }
+        
+        Point tiledCoord = this->getTileMapLayer()->tileCoordForPosition(nextPosition);
+        auto metaLayer = this->getTileMapLayer()->getMetaLayer();
+        int tileGID = metaLayer->getTileGIDAt(tiledCoord);
+        if(tileGID) {
+            auto properties = this->getTileMapLayer()->getTileMap()->getPropertiesForGID(tileGID).asValueMap();
+            if(!properties.empty()) {
+                auto collision = properties["collidable"].asString();
+                if ("true" == collision) {
+                    return;
+                }
+            }
+        }
+        hero->setPosition(nextPosition);
+    }
 }
+
+CharacterSprite* GameLayer::getHero(){
+    return this->hero;
+}
+
+
+

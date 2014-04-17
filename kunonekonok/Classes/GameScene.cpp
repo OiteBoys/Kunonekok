@@ -27,6 +27,7 @@ bool GameScene::init() {
         if(gameLayer) {
             this->gameLayer->retain();
             this->addChild(gameLayer);
+            this->gameLayer->setTileMapLayer(mapLayer);
         }
         
         optionLayer = OptionLayer::create();
@@ -36,6 +37,8 @@ bool GameScene::init() {
             optionLayer->setLocation(Point(winSize.width/5, winSize.height/5));
             this->addChild(optionLayer);
         }
+        
+        this->runAction(Follow::create(this->gameLayer->getHero(), this->mapLayer->getTileMap()->getBoundingBox()));
         return true;
     } else {
         return false;

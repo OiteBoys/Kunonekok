@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="9" height="16" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" width="10" height="16" tilewidth="16" tileheight="16">
  <tileset firstgid="1" name="map" tilewidth="16" tileheight="16">
   <image source="map.png" width="128" height="5648"/>
+  <tile id="1304">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2775">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
  </tileset>
- <layer name="ground" width="9" height="16" opacity="0.84">
+ <layer name="ground" width="10" height="16" opacity="0.84">
   <data encoding="base64" compression="zlib">
-   eJxzZGVgcAJiZyB2xMH2BGIvIPbGww4E4iAgDsbDxmX+qF1D1y4A7M8sKQ==
+   eJxjYGBgcGRlYHACYmdW3GwQ8ATSXkDszYqbDQKBQDoIiINZcbMZRu0dtReIARdJLCk=
   </data>
  </layer>
- <layer name="wall" width="9" height="16">
+ <layer name="wall" width="10" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjZGNgYAJiZiyYBYhDmRkYOIE0FxBzY8E8UDWCQFoIiIWR8BtWBoZ3QCwCVUMIUEsNMYCe7hlMakDyxJpDDAYAGH4LhQ==
+   eJz7ysrAwMjGwMAExMxYMAsQhzIzMHwFquMEsrmAmBsL5kFSJwhkCwGxMBJ+AxR/B8QiSOoIAWqrA4GBsHc4qAOpIdU8mB58GAAiUBsl
   </data>
  </layer>
- <layer name="furniture" width="9" height="16">
+ <layer name="furniture" width="10" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMJLkYGKS48KtRBMorEVBDDGBlYWBgA2JGIGZiwa6GFyjOB8ScQMyFQ40oUFwMiAWBWAiHGmqBd4wQjA6UmSCYWDXIQA6LGAycAobzabSwnsoMwTBwCSh/mYAabGAuMwQTCwAADwzL
+   eJxjYCAeSHIxMEhxEVanCFSjRIQ6YgErCwMDGxAzAjETC251vEA5PiDmBGIuPOpEgXJiQCwIxEJ41FEbvGOEYHSgzATBpKpDBnI4xGHgFDA+TqPFyVRmCEYGl4BqLhOhDhuYywzBpAAA3OcMyw==
   </data>
  </layer>
- <objectgroup name="objects" width="9" height="16">
-  <object name="heroPoint" x="28" y="203" width="9" height="10"/>
+ <objectgroup name="objects" width="10" height="16">
+  <object name="heroPoint" x="44" y="203" width="9" height="10"/>
  </objectgroup>
+ <layer name="meta" width="10" height="16" opacity="0.45">
+  <data encoding="base64" compression="zlib">
+   eJyTZGVgkKQDhgFsYrgAIbNIVYdLLS41xLqPVH+Q63588uT4g5jwokQdMRgAGoIKUQ==
+  </data>
+ </layer>
 </map>

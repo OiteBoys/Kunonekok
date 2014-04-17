@@ -17,7 +17,14 @@ public:
     bool virtual init();
     CREATE_FUNC(MapLayer);
     
+    TMXTiledMap* getTileMap();
+    
+    TMXLayer* getMetaLayer();
+    
+    Point tileCoordForPosition(Point position);
+    
 private:
     TMXTiledMap* map;
     TMXLayer* background;
+    TMXLayer* meta;
 };

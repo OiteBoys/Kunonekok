@@ -140,3 +140,11 @@ void CharacterSprite::update(float dt) {
     }
     
 }
+
+Direction CharacterSprite::getCurrentDirection() {
+    return this->currentDirection;
+}
+
+ActionState CharacterSprite::getCurrentStatus() {
+    return this->currentStatus;
+}

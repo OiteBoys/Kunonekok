@@ -47,6 +47,9 @@ public:
     void idle();
     void walk(Direction direction);
     
+    Direction getCurrentDirection();
+    ActionState getCurrentStatus();
+    
 private:
     static CharacterSprite* shareCharacterSprite;
     void initActions();

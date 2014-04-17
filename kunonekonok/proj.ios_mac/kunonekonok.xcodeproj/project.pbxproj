@@ -156,6 +156,7 @@
 		5198C4FC18E285CD006D2B69 /* run.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F718E285CC006D2B69 /* run.plist */; };
 		5198C4FD18E285CD006D2B69 /* run.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F818E285CD006D2B69 /* run.png */; };
 		5198C4FE18E285CD006D2B69 /* run.png in Resources */ = {isa = PBXBuildFile; fileRef = 5198C4F818E285CD006D2B69 /* run.png */; };
+		51AE043918FFB67F0042927B /* meta.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE043818FFB67F0042927B /* meta.png */; };
 		51E39B5018DC38640086C64C /* MotionStreakExampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */; };
 		51E39B5318DC3A420086C64C /* Terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E39B5218DC3A420086C64C /* Terrain.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -439,6 +440,7 @@
 		5198C4F618E285CC006D2B69 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		5198C4F718E285CC006D2B69 /* run.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = run.plist; sourceTree = "<group>"; };
 		5198C4F818E285CD006D2B69 /* run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run.png; sourceTree = "<group>"; };
+		51AE043818FFB67F0042927B /* meta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meta.png; sourceTree = "<group>"; };
 		51E39B4818DC384C0086C64C /* MotionStreakExampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotionStreakExampleScene.h; path = ../Classes/MotionStreakExampleScene.h; sourceTree = "<group>"; };
 		51E39B4F18DC38640086C64C /* MotionStreakExampleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MotionStreakExampleScene.cpp; path = ../Classes/MotionStreakExampleScene.cpp; sourceTree = "<group>"; };
 		51E39B5118DC3A350086C64C /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Terrain.h; path = ../Classes/Terrain.h; sourceTree = "<group>"; };
@@ -666,6 +668,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				51AE043818FFB67F0042927B /* meta.png */,
 				5149D44B18E561A9003B25A4 /* button_ok.png */,
 				5149D44C18E561A9003B25A4 /* pad.png */,
 				51916CBF18E3C70B00CAEF4B /* haha.png */,
@@ -953,6 +956,7 @@
 				51916CCD18E3C70B00CAEF4B /* neko.png in Resources */,
 				51916CB718E3BD5500CAEF4B /* map.png in Resources */,
 				5149D44F18E561A9003B25A4 /* pad.png in Resources */,
+				51AE043918FFB67F0042927B /* meta.png in Resources */,
 				5174F99018D149430003CC17 /* ki.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				5174F99A18D149430003CC17 /* seikai.png in Resources */,
